@@ -1,0 +1,24 @@
+{
+  "name": "requests",
+  "version": "1.0.0",
+  "description": "This is the data selfie app by Joey Lee.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yannicklansink/working_with_data-apis.git"
+  },
+  "keywords": [
+    "example",
+    "data",
+    "selfie"
+  ],
+  "author": "Yannick Lansink",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yannicklansink/working_with_data-apis/issues"
+  },
+  "homepage": "https://github.com/yannicklansink/working_with_data-apis#readme"
+}
