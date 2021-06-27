@@ -15,13 +15,15 @@
         latitude: <span id="latitude"></span>&deg;<br />
         longitude: <span id="longitude"></span>&deg;
     </p>
+    <label for="vegetable">enter your favorite vegetable</label>
+    <input id="mood" value="mood" />
     <button id="submit">submit</button>
 
     <script>
         let lat, lon;
         const button = document.getElementById('submit');
         button.addEventListener('click', async event => {
-            const data = { lat, lon };
+            const data = { lat, lon, mood };
             const options = {
                 method: 'POST',
                 headers: {
